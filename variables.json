@@ -1,0 +1,17 @@
+{
+    "vsphere_server": "vcenter.yourdomain.local",
+    "vsphere_user": "username@yourdomain.local",
+    "vsphere_password": "password",
+    "vsphere_template_name": "WIN2022_WithUpdates",
+    "vsphere_folder": "templates",
+    "vsphere_dc_name": "DC1",
+    "vsphere_compute_cluster": "DC1-PROD",
+    "vsphere_portgroup_name": "trunk_all_vlans",
+    "vsphere_host": "esx-host-01.yourdomain.local",
+    "vsphere_datastore": "datastore1",
+    "winadmin_password": "windowspassword",
+    "cpu_num": "4",
+    "mem_size": "4096",
+    "disk_size": "102400",
+    "os_iso_path": "[datastore1] ISO/SW_DVD9_Win_Server_STD_CORE_2022__64Bit_English_DC_STD_MLF_X22-74290.ISO"
+}
